@@ -1,0 +1,7 @@
+main.cpp: In function ‘void CompareThreeNumbers(int, int, int, Result&)’:
+main.cpp:18:21: error: cannot bind non-const lvalue reference of type ‘int&’ to a value of type ‘bool’
+   18 |             swap (b > c)
+      |                   ~~^~~
+main.cpp:3:16: note: in passing argument 1 of ‘void swap(int&, int&)’
+    3 | void swap(int &lhs,int &rhs)
+      |           ~~~~~^~~
